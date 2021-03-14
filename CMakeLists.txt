@@ -43,6 +43,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/vision/DetectionBall.msg"
   "msg/vision/DetectionRobot.msg"
   "msg/vision/DetectionFrame.msg"
+  "msg/data/Ball.msg"
+  "msg/data/Robot.msg"
+  "msg/data/Robots.msg"
   DEPENDENCIES geometry_msgs
 )
 
