@@ -46,6 +46,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/data/Ball.msg"
   "msg/data/Robot.msg"
   "msg/data/Robots.msg"
+  "msg/data/Field.msg"
+  "msg/gamecontroller/Referee.msg"
   DEPENDENCIES geometry_msgs
 )
 

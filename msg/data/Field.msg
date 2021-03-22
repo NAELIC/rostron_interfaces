@@ -1,0 +1,6 @@
+float32 width
+float32 length
+float32 goal_width
+float32 goal_depth
+float32 penalty_width
+float32 penalty_depth
