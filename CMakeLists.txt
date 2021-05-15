@@ -40,6 +40,7 @@ find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/order/Order.msg"
+  "msg/order/Orders.msg"
   "msg/order/Hardware.msg"
   "msg/vision/DetectionBall.msg"
   "msg/vision/DetectionRobot.msg"
