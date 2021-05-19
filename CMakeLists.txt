@@ -50,6 +50,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/data/Robots.msg"
   "msg/data/Field.msg"
   "msg/gamecontroller/Referee.msg"
+  "action/primitive/MoveTo.action"
   DEPENDENCIES geometry_msgs
 )
 
