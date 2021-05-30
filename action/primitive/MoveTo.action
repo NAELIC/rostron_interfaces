@@ -1,4 +1,5 @@
-geometry_msgs/Pose pose
+geometry_msgs/Point position
+float32 orientation
 ---
 float32 time
 bool success
