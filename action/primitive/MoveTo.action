@@ -1,7 +1,0 @@
-geometry_msgs/Point position
-float32 orientation
----
-float32 time
-bool success
----
-float32 remaining_distance
