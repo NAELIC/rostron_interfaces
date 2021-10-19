@@ -4,3 +4,4 @@ float32 goal_width
 float32 goal_depth
 float32 penalty_width
 float32 penalty_depth
+float32 boundary_width
