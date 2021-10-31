@@ -51,6 +51,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/data/Field.msg"
   "msg/gamecontroller/Referee.msg"
   "action/Behavior.action"
+  "srv/AddAnnotation.srv"
+  "srv/DeleteAnnotation.srv"
   DEPENDENCIES geometry_msgs action_msgs
 )
 
