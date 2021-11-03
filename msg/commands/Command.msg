@@ -1,4 +1,3 @@
-# Deprecated : Use Command
 # id of the robot
 uint8 id
 

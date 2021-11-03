@@ -41,7 +41,9 @@ find_package(action_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/order/Order.msg"
   "msg/order/Orders.msg"
-  "msg/order/Hardware.msg"
+  "msg/commands/Command.msg"
+  "msg/commands/Commands.msg"
+  "msg/commands/Hardware.msg"
   "msg/vision/DetectionBall.msg"
   "msg/vision/DetectionRobot.msg"
   "msg/vision/DetectionFrame.msg"
